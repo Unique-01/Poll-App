@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* background-color: gold; */
+    /* background-color:cornflowerblue; */
+    background: radial-gradient(cornflowerblue,white);
+}
+a{
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 10px; */
+    padding: 5px;
+    background-color:darkgray;
+}
+.nav-li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.nav-li li a{
+    /* margin: 20px; */
+    padding: 20px;
+    font-size: smaller;
+    color:crimson
+    ;
+}
+.polls{
+    margin: 20px 40px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 20px;
+}
+.polls li {
+    padding: 7px;
+    color:darkred;
+}
+.polls li a{
+    color: darkred;
+}
+form{
+    padding: 20px;
+}
+fieldset{
+    padding: 10px;
+}
+input{
+    margin: 10px 0px;
+}
+button{
+    margin: 10px 0px;
+    border: none;
+    padding: 10px 20px;
+    background-color: rgb(59, 59, 233);
+    color: white;
+    border-radius: 15px 20px;
+}
+button:hover{
+    background-color: blue;
+}
+.logo{
+    border-radius: 100%;
+    /* padding: 2%; */
+    height: 50px;
+    width: 50px;
+    background-color:darkkhaki;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+header h3{
+    display: flex;
+    justify-content: center;
+    color: purple;
+    font-size: xx-large;
+    font-style: oblique;
+    font-family: cursive;
+    margin-top: 20px;
+}
